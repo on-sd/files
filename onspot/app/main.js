@@ -1,3 +1,3 @@
 $(function(){
-      $("#main").load("https://on-sd.github.io/onspot/index.html");
+      $("#main").load("https://on-sd.github.io/files/onspot/index.html");
     });
