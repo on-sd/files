@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.904);
+  text-align: center;
+}
+body {
+  background-image: url(bg.svg);
+  background-size: cover;
+}
+#hcli,
+#ucli,
+.box div {
+  margin-top: 4px;
+  padding: 10px;
+  margin-left: 9px;
+  margin-right: 9px;
+  font-size: 15px;
+  height: 17px;
+}
+#hcli,
+#ucli {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  position: fixed;
+  top: 42px;
+  right: 1px;
+}
+#hicon,
+#nicon,
+#uicon {
+  width: 100%;
+  font-size: 50px;
+  position: fixed;
+  margin-top: 4px;
+}
+#hcli,
+#hotspotsetting input,
+#hotspotsetting button,
+#softkey,
+#ucli,
+.box div,
+body i,
+body u, 
+#obox button {
+  background: rgba(15, 15, 15, 0.534);
+  border-radius: 9px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(21, 255, 0, 0.671);
+  box-shadow: 0 0 20px 0 rgba(0, 255, 42, 0.24);
+}
+.box {
+  position: fixed;
+  top: 91px;
+  width: 100%;
+}
+body i,
+body u {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-top: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+body u {
+  background: #fff;
+  height: 10px;
+  width: 10px;
+}
+#softkey {
+  position: fixed;
+  bottom: -1px;
+  right: 0;
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 4px;
+}
+#softright {
+  position: relative;
+  right: 75px;
+}
+#softcenter {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+#softleft {
+  position: relative;
+  left: 75px;
+}
+#hotspotsetting {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+}
+#hotspotsetting div {
+  position: relative;
+  left: -55px;
+  bottom: 33px;
+  font-size: 23px;
+}
+#hotspotsetting input,
+#hotspotsetting button {
+  padding: 8px;
+  position: relative;
+  top: -50px;
+  margin-left: 9px;
+  margin-right: 9px;
+  font-size: 15px;
+  width: 80%;
+  box-sizing:border-box;
+}
+#hotspotsetting #typbut {
+  position: relative;
+  left: -30px;
+  height: 37px;
+  width: 125px;
+}
+section {
+  display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#savbut:focus ,#reset:focus,#nav:focus,.op:focus,#sname:focus,#spass:focus,#typbut:focus {
+  outline-style:none;
+  border-bottom: rgb(8, 197, 172);
+  border-bottom-width: 4px;
+  box-sizing:border-box;
+  border-bottom-style: solid;
+}
+/* #savbut ,#reset,#nav,.op,#sname,#spass,#typbut {
+  outline-style: solid;
+  border-bottom: rgb(8, 197, 49);
+  border-bottom-width: 4px;
+  box-sizing:border-box;
+  border-bottom-style: solid;
+} */
+#abox {
+  background: rgba(39, 39, 39, 0.911);
+  position: fixed;
+  height: 55px;
+  width: 99%;
+  z-index: 1;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border: 1px solid rgba(21, 255, 0, 0.671);
+}
+#abox img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 2px;
+  margin-left: 20px;
+}
+#abox span {
+  position: relative;
+  top: 17px;
+  right: 11px;
+}
+
+#obox {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.822);
+  margin: 7px;
+  height: 85%;
+  border-radius: 9px;
+}
+#obox button {
+  margin-top: 14px;
+  display: block;
+  width: 90%;
+  margin-right: 12px;
+  margin-left: 12px;
+  display: block;
+  padding: 10px;
+}
+#obox #nav {
+  margin-top: 15px;
+  margin-left: 19px;
+  text-align: left;
+  width: 48px;
+  padding: 8px;
+}
+select {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}

@@ -1,0 +1,28 @@
+﻿{
+    "name": "Hotspot",
+    "description": "Hotspot",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/icon.svg"
+    },
+    "type": "certified",
+    "permissions": {
+        "settings": {
+            "access": "readwrite"
+        },
+        "desktop-notification": {}
+    },
+    "default_locale": "en-US",
+    "display": "Browser",
+    "locales": {
+        "en-US": {
+            "name": "Hotspot",
+            "description": "KaiOS Phone Hotspot"
+        },
+        "hi-HI": {
+            "name": "हॉटस्पॉट",
+            "description": "कायोस फोन हॉटस्पॉट"
+        }
+    },
+    "version": "3.0"
+}

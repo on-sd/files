@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Hotsline</title>
+    <!-- online -->
+    	<link rel="icon" href="https://on-sd.github.io/onspot/icon.svg" type="image/svg" sizes="25x25">
+    <link rel="manifest" href="https://on-sd.github.io/onspot/manifest.webapp">
+    <link rel="stylesheet" href="https://on-sd.github.io/onspot/css/app.min.css">
+    <!-- offline -->
+  <!--   <link rel="icon" href="icon.svg" type="image/svg" sizes="25x25">
+    <link rel="manifest" href="manifest.webapp">
+    <link rel="stylesheet" href="css/app.min.css"> -->
+
+
+</head>
+
+<body>
+
+    <section id="Hotspot" style="display:none;">
+        <i></i><u></u><i></i>
+
+        <div id="hicon"></div><br>
+        <div id="hcli"></div>
+        <div class="box">
+            <div id="hstatus"></div>
+            <div id="hname"></div>
+            <div id="hpass"></div>
+            <div id="hsecu"></div>
+        </div>
+        <p id="softkey">
+            <span id="softright">On</span>
+            <button id="softcenter" onclick="enter()" class="op"></button>
+            <span id="softleft">Off</span>
+        </p>
+    </section>
+    <section id="hotspotsetting" style="display:none">
+        <div>Name</div><br />
+        <input type="text" id="sname">
+        <div>Password</div><br />
+        <input type="text" id="spass">
+        <div>Security</div><br />
+        <button id="typbut">
+        <select id="stype">
+            <option value="open">Open</option>
+            <option value="wpa-psk">WPA(TKIP)</option>
+            <option value="wpa2-psk">WPA2(AES)</option>
+        </select>
+    </button>
+        </div>
+        <p id="softkey">
+            <span id="softright">Back</span>
+            <span id="softcenter"></span>
+            <span id="softleft">Save</span>
+        </p>
+    </section>
+    <section id="usbsec" style="display:none">
+        <i></i><i></i><u></u>
+        <h5 id="uicon"></h5><br>
+        <div class="box">
+            <div id="ucli"></div>
+            <div id="ustatus"></div>
+            <div id="IP"></div>
+        </div>
+        <p id="softkey">
+            <span id="softright">On</span>
+            <span id="softcenter"></span>
+            <span id="softleft">Off</span>
+        </p>
+    </section>
+    <section id="netsec" style="display:none">
+        <u></u><i></i><i></i>
+        <h5 id="nicon"></h5>
+        <div class="box">
+            <div id="nnet"></div>
+            <div id="ncar"></div>
+        </div>
+        <p id="softkey">
+            <span id="softright">On</span>
+            <span id="softcenter"></span>
+            <span id="softleft">Off</span>
+        </p>
+    </section>
+
+    <section id="abox" style="display:none">
+        <img src="https://on-sd.github.io/onspot/icon.svg" id="aicon">
+        <!-- <img src="icon.svg" id="aicon"> -->
+        <span id="atxt"></span>
+    </section>
+    <section id="obox" style="display:none">
+        <button id="nav">Back</button>
+        <button id="savbut">
+            <select id="tsave">
+                <option value="0">Change Type</option>
+                <option value="open">Open</option>
+                <option value="wpa-psk">WPA(TKIP)</option>
+                <option value="wpa2-psk">WPA2(AES)</option>
+        </select>
+    </button>
+        <button id="reset">Reset</button>
+    </section>
+<script>
+ 
+    
+</script>
+<style>
+    
+
+</style>
+</body>
+<!-- online -->
+<script src="https://on-sd.github.io/onspot/js/one.min.js"></script>
+<script src="https://on-sd.github.io/onspot/js/navitem.min.js"></script>
+<!-- offline -->
+<!-- <script src="js/one.min.js"></script>
+<script src="js/navitem.min.js"></script> -->
+
+</html>
