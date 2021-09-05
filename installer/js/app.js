@@ -1,4 +1,4 @@
-// window.addEventListener('load', function() {
+ window.addEventListener('load', function() {
   var mainlist = document.getElementById('filepicker')
   var items = [], textIndex = 0
   var activityHandler = null
@@ -101,4 +101,4 @@
   
   rescanFiles(defPathPrefixes)
   
-// }, false)
+ }, false)
