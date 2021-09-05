@@ -101,4 +101,4 @@
   
   rescanFiles(defPathPrefixes)
   
- }, false)
+ }, true)
