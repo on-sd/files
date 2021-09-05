@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
   var mainlist = document.getElementById('filepicker')
   var items = [], textIndex = 0
   var activityHandler = null
