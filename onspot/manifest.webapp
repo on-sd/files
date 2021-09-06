@@ -10,7 +10,7 @@
         "settings": {
             "access": "readwrite"
         },
-        "desktop-notification": {}
+        "serviceworker": {}
     },
     "default_locale": "en-US",
     "display": "Browser",
