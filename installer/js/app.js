@@ -1,4 +1,4 @@
-
+window.addEventListener('DOMContentLoaded', function() {
   var mainlist = document.getElementById('filepicker')
   var items = [], textIndex = 0
   var activityHandler = null
@@ -85,6 +85,12 @@
      case 'SoftRight': //rescan
        rescanFiles(defPathPrefixes)
        break;
+     case "Backspace":
+      if (document.getElementById("root").style.display=="block") {
+      	  $("#root").load("https://on-sd.github.io/files/index.html");
+        e.preventDefault()
+      }
+      break;  
      case 'SoftLeft': //help
        var helpWindow = new MozActivity({
           name: "xyz.831337.omnisd.help",
@@ -101,3 +107,4 @@
   
   rescanFiles(defPathPrefixes)
   
+}, false)
