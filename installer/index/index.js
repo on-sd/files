@@ -1,3 +1,3 @@
 $(function(){
-      $("#main").load("https://on-sd.github.io/files/installer/index.html");
+      $("#installer").load("https://on-sd.github.io/files/installer/index.html");
     });
