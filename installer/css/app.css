@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color:rgb(255, 255, 255);
 }
 
 html, body {
@@ -39,8 +40,7 @@ p {
   text-align: center;
   font-size: 17px;
   color: #ffffff;
-  font-weight: 300;
-  background: rgb(111, 2, 181);
+  background: rgb(0, 173, 58);
   margin: 0;
   padding: 0;
   white-space: nowrap;
@@ -61,8 +61,9 @@ p {
 
 #softkeys {
   position: fixed; bottom: 0; left: 0; width: 100%; height: 30px;
-  background: #dadada;
+  background: rgb(0, 0, 0);
   padding: 3px 5px;
+  color: #ffffff;
 }
 
 #softkeys > * {
@@ -74,7 +75,6 @@ p {
 #softkey-left, #softkey-right {
   font-weight: 400;
   font-size: 14px;
-  color: #323232;
 }
 
 #softkey-right {
@@ -85,7 +85,6 @@ p {
   font-weight: 600;
   font-size: 16px;
   width: 76px;
-  color: #323232;
   text-align: center;
 }
 
@@ -93,12 +92,13 @@ p {
   display: block;
   overflow-x: hidden;
   overflow-y: scroll;
+  background-color: #111;
 }
 
 .picker-file {
   display: block;
-  background: #eee;
-  color: #111;
+  background: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
   position: relative;
   width: 100%;
   height: 3em;
@@ -106,7 +106,7 @@ p {
 }
 
 .picker-file.active {
-  background: rgb(101, 2, 171);
+  background: rgb(34, 214, 43);
   color: #ffffff;
 }
 
