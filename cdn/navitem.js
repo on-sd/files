@@ -2,7 +2,7 @@
 
 window.onload = function(){
     navitem.init(),
-    navitem.add({selector:".navitem, .navkey, .navpad, .⌨"}),
+    navitem.add({selector:".navitem, .navkey, .navpad"}),
     navitem.makeFocusable(),
     navitem.focus()
 }
