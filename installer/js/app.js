@@ -68,7 +68,7 @@
     }
   }
   
-  window.addEventListener('keydown', function(e) {
+  $(window).on('keydown', function(e) {
    switch(e.key) {
      case 'ArrowUp': //scroll up
      case 'ArrowLeft':
