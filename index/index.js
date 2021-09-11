@@ -1,9 +1,3 @@
 $(function(){
-	$("#main").load("https://on-sd.github.io/files/index.html");
+	$("#body").load("https://on-sd.github.io/files/index.html");
     });
-$(".ionspot").click(function(){ 
-	$("#root").load("https://on-sd.github.io/files/onspot/index.html");
-});
-$(".iinstaller").click(function(){ 
-    $("#root").load("https://on-sd.github.io/files/installer/index.html");
-});
