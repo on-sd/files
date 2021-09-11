@@ -103,6 +103,12 @@
        if(currentFile)
          installPkg(currentFile)
        break;
+case "Backspace":
+        if (applist.style.display== "none") {
+          e.preventDefault();
+          $("#root").load("https://on-sd.github.io/files/index.html");
+          }
+        break;
    }})
   
   rescanFiles(defPathPrefixes)
