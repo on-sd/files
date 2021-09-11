@@ -5,7 +5,7 @@ setTimeout(() => {
     navitem.add({selector:".navitem, .navkey, .navpad"}),
     navitem.makeFocusable(),
     navitem.focus()
-}, 4000);
+}, 1000);
 /*window.onload = function(){
     navitem.init(),
     navitem.add({selector:".navitem, .navkey, .navpad"}),
