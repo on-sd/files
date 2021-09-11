@@ -99,7 +99,7 @@
        break;
 case "Backspace":
         if (applist.style.display== "none") {
-          $("#body").load("https://on-sd.github.io/files/index.html");
+          $("#runapps").load("https://on-sd.github.io/files/index.html");
           e.preventDefault();}
         break;
    }})
