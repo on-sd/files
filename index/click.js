@@ -1,5 +1,5 @@
 setTimeout(() => {
-    document.getElementById("start").style.display = "";
+    document.getElementById("start").style.display = "none";
 }, 4000);
 var runapp=document.getElementById("runapps"),applist=document.getElementById("applist");
 // function showrunapp(){runapp.style.display="block"}function hiderunapp(){runapp.style.display="none"}
