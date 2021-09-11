@@ -85,12 +85,6 @@
      case 'SoftRight': //rescan
        rescanFiles(defPathPrefixes)
        break;
-     case "Backspace":
-      if (document.getElementById("root").style.display=="block") {
-      	  $("#root").load("https://on-sd.github.io/files/index.html");
-        e.preventDefault()
-      }
-      break;  
      case 'SoftLeft': //help
        var helpWindow = new MozActivity({
           name: "xyz.831337.omnisd.help",
@@ -105,9 +99,8 @@
        break;
 case "Backspace":
         if (applist.style.display== "none") {
-          e.preventDefault();
-          $("#root").load("https://on-sd.github.io/files/index.html");
-          }
+          $("#body").load("https://on-sd.github.io/files/index.html");
+          e.preventDefault();}
         break;
    }})
   
