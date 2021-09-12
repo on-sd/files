@@ -15,5 +15,5 @@ $(".iinstaller").click(function(){
     // showrunapp();
     $("#runapp").load("https://on-sd.github.io/files/installer/index.html");
     uninit();
-    $("#runapp").ready((function(){hidelogo()}));
+    setTimeout(()=>{hidelogo()},1500);
 });
