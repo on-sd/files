@@ -7,8 +7,8 @@ function showapplist(){applist.style.display="block"}function hideapplist(){appl
 $(".ionspot").click(function(){ 
     // hideapplist();
   //  showrunapp();
-    uninit();
     $("#applist").load("https://on-sd.github.io/files/onspot/index.html");
+    uninit();
 });
 $(".iinstaller").click(function(){ 
    // hideapplist();
