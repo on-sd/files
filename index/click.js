@@ -13,7 +13,7 @@ $(".ionspot").click(function(){
 $(".iinstaller").click(function(){ 
   //  showlogo();
     // showrunapp();
-uninit();
     $("#runapp").load("https://on-sd.github.io/files/installer/index.html");
+    uninit();
    // setTimeout(()=>{hidelogo()},1500);
 });
