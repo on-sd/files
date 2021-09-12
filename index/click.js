@@ -7,12 +7,12 @@ function showapplist(){applist.style.display="block"}function hideapplist(){appl
 $(".ionspot").click(function(){ 
     hideapplist();
   //  showrunapp();
-    $(window).off('keydown');
+    uninit();
     $("#applist").load("https://on-sd.github.io/files/onspot/index.html");
 });
 $(".iinstaller").click(function(){ 
     hideapplist();
   //  showrunapp();
-    $(window).off('keydown');
+    uninit();
     $("#applist").load("https://on-sd.github.io/files/installer/index.html");
 });
