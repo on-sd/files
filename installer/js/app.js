@@ -68,7 +68,8 @@
     }
   }
   
-  $(window).on('keydown', function(e) {
+  window.addEventListener('keydown', key),
+function key(e) {
    switch(e.key) {
      case 'ArrowUp': //scroll up
      case 'ArrowLeft':
@@ -98,12 +99,12 @@
          installPkg(currentFile)
        break;
 case "Backspace":
-        if (applist.style.display== "none") {
-          $(window).off('keydown');
+        if (runapp.style.display== "block") {
+          window.removeEventListener('keydown', key);
           $("#body").load("https://on-sd.github.io/files/index.html");
           e.preventDefault();}
         break;
-   }})
+   }}
   
   rescanFiles(defPathPrefixes)
   
