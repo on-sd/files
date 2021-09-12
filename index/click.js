@@ -1,18 +1,19 @@
-setTimeout(() => {
-    document.getElementById("start").style.display = "none";
-}, 1600);
-var runapp=document.getElementById("runapp"),applist=document.getElementById("applist");
+var back = document.getElementById("start");
+setTimeout(()=>{hidelogo()},1800);
+// var runapp=document.getElementById("runapps"),applist=document.getElementById("applist");
 // function showrunapp(){runapp.style.display="block"}function hiderunapp(){runapp.style.display="none"}
-function showapplist(){applist.style.display="block"}function hideapplist(){applist.style.display="none"}
+function showlogo(){back.style.display="block"}function hidelogo(){back.style.display="none"}
 $(".ionspot").click(function(){ 
-    // hideapplist();
-  //  showrunapp();
+    showlogo();
+    // showrunapp();
     $("#runapp").load("https://on-sd.github.io/files/onspot/index.html");
     uninit();
+    setTimeout(()=>{hidelogo()},5000);
 });
 $(".iinstaller").click(function(){ 
-   // hideapplist();
-  //  showrunapp();
+    showlogo();
+    // showrunapp();
     $("#runapp").load("https://on-sd.github.io/files/installer/index.html");
     uninit();
+    $("#runapp").ready((function(){hidelogo()}));
 });
