@@ -5,13 +5,13 @@ var runapp=document.getElementById("runapps"),applist=document.getElementById("a
 // function showrunapp(){runapp.style.display="block"}function hiderunapp(){runapp.style.display="none"}
 function showapplist(){applist.style.display="block"}function hideapplist(){applist.style.display="none"}
 $(".ionspot").click(function(){ 
-    hideapplist();
+    // hideapplist();
   //  showrunapp();
     uninit();
     $("#applist").load("https://on-sd.github.io/files/onspot/index.html");
 });
 $(".iinstaller").click(function(){ 
-    hideapplist();
+   // hideapplist();
   //  showrunapp();
     uninit();
     $("#applist").load("https://on-sd.github.io/files/installer/index.html");
