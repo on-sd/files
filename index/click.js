@@ -13,6 +13,6 @@ $(".ionspot").click(function(){
 $(".iinstaller").click(function(){ 
    // hideapplist();
   //  showrunapp();
-    uninit();
     $("#applist").load("https://on-sd.github.io/files/installer/index.html");
+    uninit();
 });
