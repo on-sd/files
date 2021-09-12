@@ -4,16 +4,16 @@ setTimeout(()=>{hidelogo()},1800);
 // function showrunapp(){runapp.style.display="block"}function hiderunapp(){runapp.style.display="none"}
 function showlogo(){back.style.display="block"}function hidelogo(){back.style.display="none"}
 $(".ionspot").click(function(){ 
-    showlogo();
+ //   showlogo();
     // showrunapp();
     $("#runapp").load("https://on-sd.github.io/files/onspot/index.html");
     uninit();
-    setTimeout(()=>{hidelogo()},5000);
+  //  setTimeout(()=>{hidelogo()},5000);
 });
 $(".iinstaller").click(function(){ 
-    showlogo();
+  //  showlogo();
     // showrunapp();
     $("#runapp").load("https://on-sd.github.io/files/installer/index.html");
     uninit();
-    setTimeout(()=>{hidelogo()},1500);
+   // setTimeout(()=>{hidelogo()},1500);
 });
