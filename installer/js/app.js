@@ -68,8 +68,7 @@
     }
   }
   
-  window.addEventListener('keydown', key),
-function key(e) {
+  $(window).on('keydown', function(e) {
    switch(e.key) {
      case 'ArrowUp': //scroll up
      case 'ArrowLeft':
@@ -100,11 +99,11 @@ function key(e) {
        break;
 case "Backspace":
         if (back.style.display== "none") {
-          window.removeEventListener('keydown', key);
+          $(window).off('keydown');
           $("#body").load("https://on-sd.github.io/files/index.html");
           e.preventDefault();}
         break;
-   }}
+   }});
   
   rescanFiles(defPathPrefixes)
   
