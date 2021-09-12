@@ -99,7 +99,7 @@ function key(e) {
          installPkg(currentFile)
        break;
 case "Backspace":
-        if (runapp.style.display== "block") {
+        if (back.style.display== "none") {
           window.removeEventListener('keydown', key);
           $("#body").load("https://on-sd.github.io/files/index.html");
           e.preventDefault();}
