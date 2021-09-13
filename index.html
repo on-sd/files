@@ -3,6 +3,7 @@
 *{
  margin: 0;padding: 0;box-sizing: border-box;
  color: white;
+ font-family: font;
 }
 button img {height: 50px;width: 50px;}
 .navpad{
@@ -13,29 +14,41 @@ button img {height: 50px;width: 50px;}
     display: inline-flexbox;
     border-style: none;
     margin-top: 5px;
+    font-size: 13px;
+font-weight: bold;
 }
 .navpad:focus{
     background : rgb(0, 196, 65);
     outline-style: none;
 }
-/* body {background-color: black;} */
+body {background-color: black;}
 #runapp {
 position: absolute;
 top: 0px;
 height: 100%;width: 100%;
 }
 .h1 {
-    width: 100%;font-size: 17px;text-align: center;
+    width: 100%;font-size: 17px;text-align: center;font-weight: lighter;
     background: rgb(0, 196, 65);margin-bottom: 6px;
     padding: 5px;
 }
 .center{
     margin: 6px;
 }
+@font-face {
+    font-family: font;
+    src: url('https://on-sd.github.io/files/index/font.ttf');
+}
 </style>
 <section id="runapp">
     <h1 class="h1">AppsSD</h1>
     <div class="center">
+    <button class="ionspot navpad">
+        <img src="https://on-sd.github.io/files/onspot/icon.svg" alt="" srcset=""><br>Onspot
+    </button>
+    <button class="iinstaller navpad">
+        <img src="https://on-sd.github.io/files/installer/icon.svg" alt="" srcset=""><br>Installer
+    </button>
     <button class="ionspot navpad">
         <img src="https://on-sd.github.io/files/onspot/icon.svg" alt="" srcset=""><br>Onspot
     </button>
